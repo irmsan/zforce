@@ -1,4 +1,4 @@
-FROM s390x/bookworm-slim:latest 
+FROM docker.io/s390x/bookworm-slim:latest 
 
 ENV BUILD_DEPS='libica-utils openssl libssl-dev openssl-ibmca time s390-tools'
 
